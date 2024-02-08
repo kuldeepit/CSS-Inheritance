@@ -1,0 +1,9 @@
+/* Properties which are inherited by the child element*/
+body {
+  font-family: Arial, sans-serif; /* Example of an inherited property */
+}
+
+/* Properties which are not inherited by the child element */
+h1 {
+  color: blue; /* Example of a non-inherited property */
+}
