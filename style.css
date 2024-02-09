@@ -1,9 +1,16 @@
-/* Properties which are inherited by the child element*/
+/* Properties which are inherited by the child element */
 body {
-  font-family: Arial, sans-serif; /* Example of an inherited property */
+  font-family: 'Times New Roman', Times, serif; /* Example of an inherited property */
+  color: red; /* Another example of an inherited property */
 }
 
 /* Properties which are not inherited by the child element */
-h1 {
-  color: blue; /* Example of a non-inherited property */
+body {
+  border: 1px solid red; /* example of a non-inherited property */
+}
+
+/* this is to show if border property was inherited from body element then it would have been displayed like this border in black color*/
+
+p {
+  border: 1px solid black;
 }
